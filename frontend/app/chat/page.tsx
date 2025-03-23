@@ -156,13 +156,13 @@ export default function ChatPage() {
     // const llm = new ChatOpenAI({
     //   temperature: 0,
     //   model: "gpt-4o-mini",
-    //   apiKey: "OPENAI_API_KEY",
+    //   apiKey: process.env.OPENAI_API_KEY,
     // });
 
       const llm = new ChatGroq({
       temperature: 0,
       model: "llama-3.3-70b-versatile",
-      apiKey: "GROQ_API_KEY",
+      apiKey: process.env.GROQ_API_KEY,
     });
     
     const agent = await createReactAgent({
