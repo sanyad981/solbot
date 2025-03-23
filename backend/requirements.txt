@@ -1,0 +1,10 @@
+langchain
+langgraph
+langchain-groq
+langchain_community
+agentipy
+streamlit
+python-dotenv
+flaOPENAI_API_KEY
+flask
+requests
