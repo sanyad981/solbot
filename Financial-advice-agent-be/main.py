@@ -21,7 +21,7 @@ from utils import *
 from consts import *
 from classes import *
 
-MODEL = "llama-3.1-8b-instant"
+MODEL = "llama-3.3-70b-versatile"
 # MODEL = "llama-3.3-70b-versatile"
 
 llm = ChatGroq(
